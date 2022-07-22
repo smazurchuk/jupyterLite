@@ -1,7 +1,7 @@
 # Jupyter Lite
 
-To build the site, run:
+To work on this site locally, run:
 
 ```
-jupyter lite build --contents content
+jupyter lite serve --contents content --output-dir docs
 ```
