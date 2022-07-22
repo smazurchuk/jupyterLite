@@ -1,0 +1,49 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2022-07-22T16:10:27.362627Z",
+      "format": null,
+      "last_modified": "2022-07-22T16:10:27.362627Z",
+      "mimetype": null,
+      "name": "data",
+      "path": "data",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-07-22T16:10:28.165812Z",
+      "format": null,
+      "last_modified": "2022-07-22T16:10:28.165812Z",
+      "mimetype": null,
+      "name": "pyolite",
+      "path": "pyolite",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2022-07-22T16:10:28.204326Z",
+      "format": null,
+      "last_modified": "2022-07-22T15:31:33Z",
+      "mimetype": null,
+      "name": "soeLMExplore.ipynb",
+      "path": "soeLMExplore.ipynb",
+      "size": 25216,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2022-07-22T16:10:28.196326Z",
+  "format": "json",
+  "last_modified": "2022-07-22T16:10:28.196326Z",
+  "mimetype": null,
+  "name": "",
+  "path": "",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
