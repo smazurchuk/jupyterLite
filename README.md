@@ -16,5 +16,5 @@ jupyter lite serve --contents content --output-dir docs
 To build the site I run the following command and then sync the changes to github!
 
 ```
-jupyter lite build --contents content --output-dir docs --force --base-url smazurchuk.github.io/jupyterLite
+jupyter lite build --contents content --output-dir docs --force --base-url smazurchuk.github.io
 ```
