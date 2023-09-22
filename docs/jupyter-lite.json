@@ -2,7 +2,7 @@
   "jupyter-config-data": {
     "appName": "JupyterLite",
     "appUrl": "./lab",
-    "appVersion": "0.1.0-beta.12",
+    "appVersion": "0.1.2",
     "baseUrl": "./",
     "defaultKernelName": "python",
     "faviconUrl": "./lab/favicon.ico",
@@ -10,14 +10,34 @@
       {
         "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.ca1efc27dc965162ca86.js",
+        "load": "static/remoteEntry.d6df56cd69f4640706bc.js",
         "name": "@jupyter-widgets/jupyterlab-manager"
       },
       {
         "extension": "./extension",
+        "liteExtension": true,
+        "load": "static/remoteEntry.e75039073a726197e847.js",
+        "name": "@jupyterlite/javascript-kernel-extension"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": true,
+        "load": "static/remoteEntry.fabc1fef75f1e3a86469.js",
+        "name": "@jupyterlite/pyodide-kernel-extension"
+      },
+      {
+        "extension": "./extension",
         "liteExtension": false,
-        "load": "static/remoteEntry.509ecd914d0df11eb8e1.js",
-        "name": "jupyter-matplotlib"
+        "load": "static/remoteEntry.febb837ab3b6ef743bf7.js",
+        "name": "@pyviz/jupyterlab_pyviz",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.66500334d7b36213676e.js",
+        "mimeExtension": "./mimeExtension",
+        "name": "jupyterlab-plotly"
       }
     ],
     "fileTypes": {
@@ -297,6 +317,13 @@
     "fullMathjaxUrl": "./static/jupyter_server_mathjax/MathJax.js",
     "fullStaticUrl": "./build",
     "licensesUrl": "./lab/api/licenses",
+    "litePluginSettings": {
+      "@jupyterlite/pyodide-kernel-extension:kernel": {
+        "pipliteUrls": [
+          "./extensions/@jupyterlite/pyodide-kernel-extension/static/pypi/all.json?sha256=559fdb0c528ad0e0843f12d3dec4e043c112bcfe56ede80ae019755d81c930b0"
+        ]
+      }
+    },
     "mathjaxConfig": "TeX-AMS-MML_HTMLorMML-full,Safe"
   },
   "jupyter-lite-schema-version": 0
